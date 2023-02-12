@@ -15,7 +15,7 @@ phoneRegex = re.compile(r"""
                                 
 """, re.VERBOSE)
 
-print(phoneRegex.findall("my number is 985-555-3468, what's yours?"))
+print(phoneRegex.search("my number is 985-555-3468, what's yours?"))
 #TODO: create a regex for email addresses
 
 
