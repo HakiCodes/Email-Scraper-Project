@@ -1,7 +1,7 @@
 import re
 import pyperclip 
 
-# Created a regex for names
+# Creates a regex for names
 
 nameRegex = re.compile(r"""
 # First Last and optional Middle
@@ -11,7 +11,7 @@ nameRegex = re.compile(r"""
 (\s+[A-Z][a-z]+\b)  # Last Name
 """, re.VERBOSE)
 
-# Created a regex for phone nums
+# Creates a regex for phone nums
 
 phoneRegex = re.compile(r"""
 # 415-555-0000, 555-0000, (415) 555-0000, 555-0000 ext 12345, ext. 12345, x12345
